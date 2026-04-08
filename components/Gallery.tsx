@@ -21,7 +21,7 @@ const GALLERY_IMAGES = [
     thumb: "/images/photo-02.jpg",
     alt: "Mariachi Amigos LA band",
     span: "col-span-1 row-span-1",
-    category: "Band",
+    category: "Corporate Events",
   },
   {
     id: 3,
@@ -29,7 +29,7 @@ const GALLERY_IMAGES = [
     thumb: "/images/photo-03.jpg",
     alt: "Mariachi wedding performance",
     span: "col-span-1 row-span-1",
-    category: "Wedding",
+    category: "Dodgers",
   },
   {
     id: 4,
@@ -37,7 +37,7 @@ const GALLERY_IMAGES = [
     thumb: "/images/photo-04.jpg",
     alt: "Mariachi Amigos LA at event",
     span: "col-span-1 row-span-2",
-    category: "Event",
+    category: "Quinceañera",
   },
   {
     id: 5,
@@ -53,7 +53,7 @@ const GALLERY_IMAGES = [
     thumb: "/images/photo-06.jpg",
     alt: "Mariachi Amigos LA musicians",
     span: "col-span-1 row-span-1",
-    category: "Musicians",
+    category: "Lady of Guadalupe",
   },
   {
     id: 7,
@@ -69,7 +69,7 @@ const GALLERY_IMAGES = [
     thumb: "/images/photo-08.jpg",
     alt: "Mariachi Amigos LA outdoor event",
     span: "col-span-1 row-span-2",
-    category: "Outdoor Event",
+    category: "Sunday Brunch",
   },
 ];
 
