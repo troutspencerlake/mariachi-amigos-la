@@ -60,7 +60,7 @@ const GALLERY_IMAGES = [
     src: "/images/photo-07.jpg",
     thumb: "/images/photo-07.jpg",
     alt: "Mariachi Amigos LA quinceañera",
-    span: "col-span-1 row-span-1",
+    span: "col-span-2 row-span-1",
     category: "Quinceañera",
   },
   {
@@ -68,7 +68,7 @@ const GALLERY_IMAGES = [
     src: "/images/photo-08.jpg",
     thumb: "/images/photo-08.jpg",
     alt: "Mariachi Amigos LA outdoor event",
-    span: "col-span-2 row-span-1",
+    span: "col-span-1 row-span-2",
     category: "Outdoor Event",
   },
 ];
