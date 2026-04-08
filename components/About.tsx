@@ -143,6 +143,9 @@ export default function About() {
             <p className="text-white/75 text-base leading-relaxed">
               {t.about.bio3}
             </p>
+            <p className="text-white/75 text-base leading-relaxed">
+              {t.about.bio4}
+            </p>
 
             {/* Instruments highlight */}
             <div className="flex flex-wrap gap-2 pt-2">

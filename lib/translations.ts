@@ -34,11 +34,13 @@ export const translations = {
       sectionLabel: "Our Story",
       title: "Music That Moves the Soul",
       bio1:
-        "Mariachi Amigos LA is Los Angeles' premier traditional mariachi ensemble, performing with passion, pride, and authentic Mexican heritage. For over two decades, we have filled celebrations across Southern California with the vibrant sounds of the violin, trumpet, vihuela, guitarrón, and guitar.",
+        "Mariachi Amigos de Los Angeles is a seasoned ensemble with decades of combined experience, and proud to be one of the highest-rated mariachi groups in Los Angeles. Devoted, passionate, and professional, we bring our full energy to every event we perform. Our extensive repertoire spans the full range of mariachi tradition — Sones, Rancheras, Huapangos, Boleros, Cumbias, Polkas, Joropos, and Danzones.",
       bio2:
-        "Our talented musicians are classically trained and deeply rooted in mariachi tradition. Whether you envision an intimate serenade or a grand fiesta with a full ensemble of 12, we tailor every performance to make your event unforgettable.",
+        "We believe every event deserves to be unforgettable. From performing alongside well-known artists to intimate private gatherings, we treat each performance with the same dedication and care — so every moment becomes a memory worth keeping.",
       bio3:
-        "From the rolling hills of Ventura County to the beaches of Orange County, Mariachi Amigos LA has serenaded thousands of couples, families, and communities. We bring joy, warmth, and the authentic spirit of Mexico to every stage.",
+        "Mariachi Amigos de Los Angeles serves all types of occasions, including concerts, birthdays, quinceañeras, television productions, corporate parties, weddings, and celebrations of life. Our members bring years of experience and a wide-ranging song selection that honors the full breadth of mariachi artistry. We are committed to growth, excellence, and always delivering the best show — no matter the setting.",
+      bio4:
+        "Punctuality and pace are a point of pride for us. We play efficiently so our clients get the most out of every hour, while seamlessly adapting to any occasion with a genuine sense of culture, language, and atmosphere. Contact us today — not just for a performance, but for a lifelong memory.",
       stat1: "Years of Experience",
       stat2: "Events Performed",
       stat3: "Happy Clients",
@@ -226,11 +228,13 @@ export const translations = {
       sectionLabel: "Nuestra Historia",
       title: "Música Que Mueve el Alma",
       bio1:
-        "Mariachi Amigos LA es el conjunto de mariachi tradicional más destacado de Los Ángeles, actuando con pasión, orgullo y auténtico patrimonio mexicano. Por más de dos décadas, hemos llenado de vibrantes sonidos de violín, trompeta, vihuela, guitarrón y guitarra las celebraciones del sur de California.",
+        "Mariachi Amigos de Los Ángeles es un conjunto experimentado con décadas de experiencia combinada, y uno de los grupos de mariachi mejor calificados en Los Ángeles. Dedicados, apasionados y profesionales, aportamos toda nuestra energía en cada evento. Nuestro extenso repertorio abarca toda la tradición mariachi — Sones, Rancheras, Huapangos, Boleros, Cumbias, Polkas, Joropos y Danzones.",
       bio2:
-        "Nuestros talentosos músicos tienen formación clásica y están profundamente arraigados en la tradición del mariachi. Ya sea que desees una serenata íntima o una gran fiesta con un conjunto completo de 12, adaptamos cada actuación para hacer tu evento inolvidable.",
+        "Creemos que cada evento merece ser inolvidable. Desde actuar junto a artistas reconocidos hasta reuniones privadas íntimas, tratamos cada presentación con la misma dedicación y cuidado — para que cada momento se convierta en un recuerdo que vale la pena guardar.",
       bio3:
-        "Desde las colinas de Ventura hasta las playas de Orange County, Mariachi Amigos LA ha serenateado a miles de parejas, familias y comunidades. Llevamos alegría, calidez y el auténtico espíritu de México a cada escenario.",
+        "Mariachi Amigos de Los Ángeles sirve todo tipo de ocasiones: conciertos, cumpleaños, quinceañeras, producciones televisivas, fiestas corporativas, bodas y celebraciones de vida. Nuestros miembros aportan años de experiencia y una amplia selección de canciones que honra toda la riqueza del mariachi. Estamos comprometidos con el crecimiento, la excelencia y siempre dar el mejor espectáculo.",
+      bio4:
+        "La puntualidad y el ritmo son puntos de orgullo para nosotros. Tocamos con eficiencia para que nuestros clientes aprovechen al máximo cada hora, adaptándonos con naturalidad a cualquier ocasión con un genuino sentido de cultura, idioma y atmósfera. Contáctenos hoy — no solo para una actuación, sino para un recuerdo de por vida.",
       stat1: "Años de Experiencia",
       stat2: "Eventos Realizados",
       stat3: "Clientes Felices",
@@ -413,6 +417,7 @@ export type Translations = {
     bio1: string;
     bio2: string;
     bio3: string;
+    bio4: string;
     stat1: string;
     stat2: string;
     stat3: string;
