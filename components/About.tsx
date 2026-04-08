@@ -95,7 +95,7 @@ export default function About() {
               <div className="aspect-[4/3] bg-gradient-to-br from-fiesta-red/20 via-fiesta-orange/20 to-fiesta-gold/20 flex items-center justify-center">
                 {/* Placeholder for band photo */}
                 <img
-                  src="https://images.unsplash.com/photo-1501386761578-eee07ef47400?w=800&q=80"
+                  src="/images/photo-09.jpg"
                   alt="Mariachi Amigos LA performing live"
                   className="w-full h-full object-cover"
                 />

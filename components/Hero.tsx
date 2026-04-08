@@ -28,11 +28,11 @@ function FloatingNote({ delay, x, note }: { delay: number; x: string; note: stri
   );
 }
 
-// Hero background carousel images (Unsplash mariachi-themed)
+// Hero background carousel — real band photos
 const BG_IMAGES = [
-  "https://images.unsplash.com/photo-1540575467063-178a50c2df87?w=1920&q=80",
-  "https://images.unsplash.com/photo-1459749411175-04bf5292ceea?w=1920&q=80",
-  "https://images.unsplash.com/photo-1514320291840-2e0a9bf2a9ae?w=1920&q=80",
+  "/images/photo-01.jpg",
+  "/images/photo-05.jpg",
+  "/images/photo-09.jpg",
 ];
 
 export default function Hero() {
