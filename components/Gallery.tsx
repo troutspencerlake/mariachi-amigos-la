@@ -59,9 +59,9 @@ const GALLERY_IMAGES = [
     id: 7,
     src: "/images/photo-07.jpg",
     thumb: "/images/photo-07.jpg",
-    alt: "Mariachi Amigos LA quinceañera",
+    alt: "Mariachi Amigos LA with Santa",
     span: "col-span-2 row-span-1",
-    category: "Quinceañera",
+    category: "Santa",
   },
   {
     id: 8,
