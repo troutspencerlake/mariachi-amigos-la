@@ -213,26 +213,7 @@ export default function Services() {
               <MapPin className="w-6 h-6" />
               Service Areas
             </h3>
-            <div className="space-y-3">
-              {[
-                { county: "Los Angeles County", note: "No travel fee", color: "text-fiesta-gold" },
-                { county: "Orange County", note: "Small travel fee may apply", color: "text-fiesta-green" },
-                { county: "San Bernardino County", note: "Travel fee applies", color: "text-fiesta-orange" },
-                { county: "Riverside County", note: "Travel fee applies", color: "text-fiesta-red" },
-                { county: "Ventura County", note: "Travel fee applies", color: "text-fiesta-magenta" },
-              ].map(({ county, note, color }) => (
-                <div key={county} className="flex items-start justify-between gap-4">
-                  <div className="flex items-center gap-2">
-                    <div className={`w-2 h-2 rounded-full flex-shrink-0 ${color.replace("text-", "bg-")}`} />
-                    <span className={`font-semibold ${color}`}>{county}</span>
-                  </div>
-                  <span className="text-white/50 text-xs text-right">{note}</span>
-                </div>
-              ))}
-            </div>
-
-            {/* Travel fee note */}
-            <div className="mt-6 flex items-start gap-2 bg-fiesta-orange/10 border border-fiesta-orange/20 rounded-xl p-3">
+            <div className="flex items-start gap-2 bg-fiesta-orange/10 border border-fiesta-orange/20 rounded-xl p-3">
               <Clock className="w-4 h-4 text-fiesta-orange flex-shrink-0 mt-0.5" />
               <p className="text-white/60 text-xs leading-relaxed">
                 {t.services.travelNote}
