@@ -51,11 +51,6 @@ export default function About() {
       <div className="absolute top-0 left-0 right-0 h-1 fiesta-divider" />
       <div className="absolute bottom-0 left-0 right-0 h-1 fiesta-divider" />
 
-      {/* ── Large decorative guitar icon ── */}
-      <div className="absolute right-0 top-1/2 -translate-y-1/2 text-white/3 text-[400px] font-bold pointer-events-none select-none leading-none">
-        🎸
-      </div>
-
       <div className="max-w-7xl mx-auto px-6" ref={sectionRef}>
 
         {/* ── Section Header ── */}
