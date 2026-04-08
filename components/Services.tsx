@@ -213,6 +213,21 @@ export default function Services() {
               <MapPin className="w-6 h-6" />
               Service Areas
             </h3>
+            <div className="space-y-3 mb-6">
+              {[
+                { county: "Los Angeles County", color: "text-fiesta-gold" },
+                { county: "Orange County", color: "text-fiesta-green" },
+                { county: "San Bernardino County", color: "text-fiesta-orange" },
+                { county: "Riverside County", color: "text-fiesta-red" },
+                { county: "Ventura County", color: "text-fiesta-magenta" },
+              ].map(({ county, color }) => (
+                <div key={county} className="flex items-center gap-2">
+                  <div className={`w-2 h-2 rounded-full flex-shrink-0 ${color.replace("text-", "bg-")}`} />
+                  <span className={`font-semibold ${color}`}>{county}</span>
+                </div>
+              ))}
+            </div>
+
             <div className="flex items-start gap-2 bg-fiesta-orange/10 border border-fiesta-orange/20 rounded-xl p-3">
               <Clock className="w-4 h-4 text-fiesta-orange flex-shrink-0 mt-0.5" />
               <p className="text-white/60 text-xs leading-relaxed">
