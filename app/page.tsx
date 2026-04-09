@@ -8,6 +8,7 @@ import Services from "@/components/Services";
 import Gallery from "@/components/Gallery";
 import Reviews from "@/components/Reviews";
 import Booking from "@/components/Booking";
+import SeoContent from "@/components/SeoContent";
 import Footer from "@/components/Footer";
 
 export default function HomePage() {
@@ -21,6 +22,7 @@ export default function HomePage() {
         <Gallery />
         <Reviews />
         <Booking />
+        <SeoContent />
         <Footer />
       </main>
     </LanguageProvider>

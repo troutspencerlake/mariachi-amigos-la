@@ -96,7 +96,7 @@ export default function About() {
                 {/* Placeholder for band photo */}
                 <img
                   src="/images/photo-09.jpg"
-                  alt="Mariachi Amigos LA performing live"
+                  alt="Mariachi Amigos de Los Angeles performing live — professional mariachi band in Los Angeles CA"
                   className="w-full h-full object-cover"
                 />
               </div>
